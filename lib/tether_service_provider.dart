@@ -6,7 +6,7 @@ class TetherServiceProvider implements ServiceProvider {
     manager.registerHandler((Tether tether) {
 
       tether.listen('append', (_) {
-        return 'Hello world!';
+        return 'Hello worldzz!';
       });
 
     });
