@@ -3,7 +3,7 @@
 # Don’t commit the following directories created by pub.
 .buildlog
 .pub/
-build/
+#build/
 packages
 !build/web/packages
 cupid_error.log
