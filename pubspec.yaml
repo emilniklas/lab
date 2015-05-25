@@ -3,4 +3,5 @@ dependencies:
   bridge: any
   polymer: ">=0.15.1 <0.17.0"
 transformers:
-  - polymer
+  - polymer:
+      entry_points: web/index.html
