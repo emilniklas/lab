@@ -8,7 +8,7 @@ packages:
   bridge:
     description: bridge
     source: hosted
-    version: "0.3.3"
+    version: "0.3.4"
   collection:
     description: collection
     source: hosted
@@ -24,7 +24,7 @@ packages:
   cupid:
     description: cupid
     source: hosted
-    version: "0.5.4"
+    version: "0.5.5"
   dotenv:
     description: dotenv
     source: hosted
