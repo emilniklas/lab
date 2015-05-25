@@ -4,3 +4,4 @@ service_providers:
   - bridge.view.ViewServiceProvider
   - lab.RouteServiceProvider
   - lab.TetherServiceProvider
+  - lab.DevServiceProvider

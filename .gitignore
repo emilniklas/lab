@@ -6,6 +6,7 @@
 build/
 packages
 cupid_error.log
+.env
 
 # Or the files created by dart2js.
 *.dart.js

@@ -4,7 +4,10 @@ class RouteServiceProvider implements ServiceProvider {
 
   load(Router router) {
 
-    router.get('/', () => view('index'));
+    var spaHandler = () => view('index');
 
+    router.get('/', spaHandler);
+
+    router.notFoundHandler = spaHandler;
   }
 }
