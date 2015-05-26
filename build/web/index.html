@@ -6,7 +6,7 @@
 </head>
 <body unresolved=""><div hidden=""><polymer-element name="app-main">
     <template>
-        Hej
+        {{title}}
     </template>
 </polymer-element>
 <style shim-shadowdom="">
@@ -298,7 +298,11 @@ html /deep/ [segment], html /deep/ segment {
 // This empty script tag is necessary to work around dartbug.com/19650
 </script>
 </div>
-
+<style>
+    body[unresolved] {
+        opacity: 0;
+    }
+</style>
 <app-main>
 </app-main>
 

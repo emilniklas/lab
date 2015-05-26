@@ -6,7 +6,10 @@ import 'package:bridge/cli.dart';
 import 'package:bridge/tether.dart';
 import 'package:bridge/view.dart';
 import 'dart:io';
+import 'package:shelf/shelf.dart';
 
-part 'route_service_provider.dart';
-part 'tether_service_provider.dart';
-part 'dev_service_provider.dart';
+part 'providers/route_service_provider.dart';
+part 'providers/tether_service_provider.dart';
+part 'providers/dev_service_provider.dart';
+part 'routes.dart';
+part 'controllers/pages_controller.dart';

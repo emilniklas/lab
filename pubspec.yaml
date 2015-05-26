@@ -1,6 +1,7 @@
 name: lab
 dependencies:
-  bridge: any
+  bridge:
+    git: git://github.com/emilniklas/dart-bridge
   polymer: ">=0.15.1 <0.17.0"
 transformers:
   - polymer:

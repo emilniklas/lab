@@ -14,8 +14,11 @@ packages:
     source: hosted
     version: "0.15.2+4"
   bridge:
-    description: bridge
-    source: hosted
+    description:
+      ref: null
+      resolved-ref: "49946bfd0ed31656a5fa5c9b9747fe642393d038"
+      url: "git://github.com/emilniklas/dart-bridge"
+    source: git
     version: "0.3.4"
   browser:
     description: browser

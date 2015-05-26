@@ -1,7 +1,7 @@
 service_providers:
   - bridge.io.IoServiceProvider
   - bridge.tether.TetherServiceProvider
-#  - bridge.view.ViewServiceProvider
-#  - lab.RouteServiceProvider
+  - bridge.view.ViewServiceProvider
+  - lab.RouteServiceProvider
   - lab.TetherServiceProvider
   - lab.DevServiceProvider
