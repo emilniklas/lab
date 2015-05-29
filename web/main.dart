@@ -3,6 +3,7 @@ import 'dart:html';
 import 'dart:async';
 
 main() async {
+  
   // Connect the tether
   await globalTether();
 
