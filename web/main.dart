@@ -1,27 +1,18 @@
 import 'package:bridge/tether_client.dart';
-import 'package:polymer/polymer.dart';
 import 'dart:html';
 import 'dart:async';
 
 main() async {
+  // Connect the tether
   await globalTether();
 
-  Zone zone = await initPolymer();
+  // Check that the server responds
+  await tether.send('inBusiness');
 
-  zone.run(() async {
+  // Wait a moment (since we're so freaking fast!)
+  await new Future.delayed(const Duration(seconds: 2));
 
-//    document.body.append(new Text(await tether.send('append')));
-  });
-}
-
-@CustomTag('app-main')
-class MainComponent extends PolymerElement {
-
-  @observable String title;
-
-  MainComponent.created() : super.created();
-
-  attached() async {
-    title = await tether.send('append');
-  }
+  // Mix it up!
+  document.querySelector('.wrap-all').style.backgroundColor = '#ff0050';
+  document.querySelector('h1').text = 'We\'re in business!';
 }
