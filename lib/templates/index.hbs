@@ -1,16 +1,51 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    {{>elements}}
+    <title>Bridge</title>
+    <style>
+        body, html, .wrap-all {
+            height:100%;
+            width:100%;
+            margin:0;
+            padding:0;
+            background-color: #7596ff;
+            transition: 0.2s background-color;
+            font-family: Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+        .wrap-all {
+            display: table;
+        }
+        .wrap-row {
+            display: table-row;
+        }
+        .wrap-cell {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            font-weight: 100;
+            margin: 0 0 0.2em;
+        }
+        iframe {
+            display: block;
+            margin: auto;
+            width: 15.5em;
+            padding-top: 0.5em;
+        }
+        iframe:first-of-type {
+            border-top:0.1em solid white;
+        }
+    </style>
 </head>
-
 <body>
-
-<app-main>
-
-</app-main>
-
-<!--<script src='/main.dart.js'></script>-->
-<script src='/main.dart' type="application/dart"></script>
+<div class="wrap-all">
+    <div class="wrap-row">
+        <div class="wrap-cell">
+            <h1>Are we in business?</h1>
+            <iframe src="https://ghbtns.com/github-btn.html?user=dart-bridge&repo=dart-bridge&type=star&count=true" frameborder="0" scrolling="0" height="20px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=dart-bridge&type=follow&count=true" frameborder="0" scrolling="0" height="20px"></iframe>
+        </div>
+    </div>
+</div>
 </body>

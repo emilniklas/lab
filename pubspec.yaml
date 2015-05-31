@@ -1,7 +1,11 @@
-name: lab
+name: app
+version: 0.1.0
+environment:
+  sdk: '>=1.0.0 <2.0.0'
 dependencies:
-  bridge: any
-  polymer: ">=0.15.1 <0.17.0"
-transformers:
-  - polymer:
-      entry_points: web/index.html
+  bridge:
+  # Temporary while in development
+    git: git://github.com/emilniklas/dart-bridge
+dev_dependencies:
+  test: any
+  testcase: any

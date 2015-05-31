@@ -1,7 +1,9 @@
+
 service_providers:
-  - bridge.io.IoServiceProvider
+  # Register all your service providers here.
+  # Remember to either import or export the
+  # library that contains the class.
+  - bridge.http.HttpServiceProvider
+  - bridge.view.ViewServiceProvider
   - bridge.tether.TetherServiceProvider
-#  - bridge.view.ViewServiceProvider
-#  - lab.RouteServiceProvider
-  - lab.TetherServiceProvider
-  - lab.DevServiceProvider
+  - framework.BridgeApplicationServiceProvider
