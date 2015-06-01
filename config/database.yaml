@@ -1,0 +1,6 @@
+
+driver: mongodb
+
+mongodb:
+  port: 27017
+  database: taskmvc

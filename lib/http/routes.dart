@@ -3,10 +3,9 @@ part of framework;
 class Routes {
   register(
       // Controllers --
-      InBusinessController controller,
+      TasksController controller,
       // --
       Router router) => router
   // Routes
-    ..get('/', controller.index)
-    ..get('greet/:name', controller.greet);
+    ..get('/', controller.index);
 }

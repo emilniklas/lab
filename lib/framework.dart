@@ -3,6 +3,7 @@ library framework;
 import 'package:bridge/core.dart';
 import 'package:bridge/http.dart';
 import 'package:bridge/tether.dart';
+export 'package:bridge/database.dart';
 import 'http/controllers.dart';
 
 part 'http/routes.dart';

@@ -5,7 +5,8 @@ environment:
 dependencies:
   bridge:
   # Temporary while in development
-    git: git://github.com/emilniklas/dart-bridge
+    path: /Users/emilpersson/Code/dart/bridge
+  mustache: '>=0.2.3 <0.3.0'
 dev_dependencies:
   test: any
   testcase: any
