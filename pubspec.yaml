@@ -3,9 +3,10 @@ version: 0.1.0
 environment:
   sdk: '>=1.0.0 <2.0.0'
 dependencies:
-  bridge: any
+  bridge:
   # Temporary while in development
 #    path: /Users/emilpersson/Code/dart/bridge
+    git: git://github.com/dart-bridge/framework
   mustache: '>=0.2.3 <0.3.0'
 dev_dependencies:
   test: any
