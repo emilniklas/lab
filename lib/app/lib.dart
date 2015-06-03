@@ -1,5 +1,7 @@
 library app;
 
-import 'package:bridge/database.dart';
-
-part 'task.dart';
+class Greeter {
+  String greet(String name) {
+    return 'Hello, $name!';
+  }
+}

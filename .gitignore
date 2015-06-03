@@ -2,6 +2,7 @@
 .pub/
 build/
 packages
+.env
 
 # dart2js
 *.dart.js
@@ -9,6 +10,5 @@ packages
 *.js.deps
 *.js.map
 
-pubspec.lock
 
 cupid_error.log

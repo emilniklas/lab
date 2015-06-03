@@ -2,10 +2,13 @@ part of framework;
 
 class Routes {
   register(
-      // Controllers --
-      TasksController controller,
-      // --
-      Router router) => router
-  // Routes
-    ..get('/', controller.index);
+      // Controllers
+      InBusinessController controller,
+      // -----------
+      Router router) {
+    (router
+      ..get('/', controller.index)
+      ..get('greet/:name', controller.greet)
+    );
+  }
 }
