@@ -2,7 +2,7 @@ import 'package:bridge/tether_client.dart';
 import 'dart:html';
 import 'dart:async';
 
-main() async {  
+main() async {
   // Connect the tether
   await globalTether();
 
