@@ -48,8 +48,6 @@
             // Here is where we inject the greeting
             <p>$greeting</p>
             <h1>Are we in business?</h1>
-            <iframe src="https://ghbtns.com/github-btn.html?user=dart-bridge&repo=framework&type=watch&count=true&v=2" frameborder="0" scrolling="0" height="20px"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=dart-bridge&repo=framework&type=star&count=true" frameborder="0" scrolling="0" height="20px"></iframe>
         </div>
     </div>
 </div>
