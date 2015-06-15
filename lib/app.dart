@@ -1,7 +1,5 @@
-export 'package:bridge/http.dart';
-export 'package:bridge/view.dart';
-export 'package:bridge/tether.dart';
-export 'package:bridge/generators.dart';
+library app;
 
-export 'framework.dart';
-export 'app/lib.dart';
+import 'package:bridge/database.dart';
+
+part 'app/task.dart';

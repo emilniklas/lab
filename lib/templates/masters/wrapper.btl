@@ -1,0 +1,14 @@
+<body>
+
+<div class="container">
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tasks">All tasks</a></li>
+            <li><a href="/tasks/create">New tasks</a></li>
+        </ul>
+    </header>
+
+    <content></content>
+</div>
+</body>

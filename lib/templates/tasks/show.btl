@@ -1,0 +1,11 @@
+<head extends='masters.head'>
+    <title>Tasks</title>
+</head>
+<body extends='masters.wrapper'>
+<form action='/tasks/${task.id}' method='delete'><input type="submit" value='Delete'></form>
+<a href="/tasks/${task.id}/edit">Edit</a>
+<h1>${task.title}</h1>
+<if ${task.completed}>
+    Completed
+</if>
+</body>

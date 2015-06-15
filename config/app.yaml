@@ -5,7 +5,7 @@ service_providers:
   # Remember to either import or export the
   # library that contains the class.
   - bridge.http.HttpServiceProvider
+  - bridge.database.DatabaseServiceProvider
   - bridge.view.ViewServiceProvider
   - bridge.tether.TetherServiceProvider
-  - bridge.generators.GeneratorsServiceProvider
-  - framework.BridgeApplicationServiceProvider
+  - app_services.ApiServiceProvider

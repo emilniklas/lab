@@ -1,0 +1,10 @@
+<head extends='masters.head'>
+    <title>Tasks</title>
+</head>
+<body extends='masters.wrapper'>
+<for each=$task in=$tasks>
+    <div>
+        <a href="/tasks/${task.id}">${task.title}</a>
+    </div>
+</for>
+</body>

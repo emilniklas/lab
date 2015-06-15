@@ -6,4 +6,4 @@ driver: mongodb
 # Options for MongoDB driver
 mongodb:
   port: 27017
-  database: app
+  database: exampleapp
